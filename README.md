@@ -4,7 +4,7 @@
 </p>
 
 # Giới thiệu
-Website tĩnh "NhaViet" xây dựng với mục đích phục vụ hoạt động mua bán, kinh doanh các sản phẩm nội thất, trang trí nhà ở
+Website tĩnh "NhaViet" xây dựng với mục đích phục vụ hoạt động mua bán, kinh doanh các sản phẩm nội thất, ngoại thất, sản phẩm trang trí nhà ở
 
 # Công nghệ sử dụng
 - Frontend: html5, css3, javascript
@@ -20,8 +20,3 @@ Website tĩnh "NhaViet" xây dựng với mục đích phục vụ hoạt độn
 <p align="left">
 	<img src="image_test/trangchu.png">
 </p>
-
-...........................
-## b. Giao diện quản trị ##
-
-............................
