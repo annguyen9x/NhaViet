@@ -1,6 +1,6 @@
 # <p align="center">NhaViet</p>
 <p align="center">
-	(My first frontend website project)
+	(My first frontend project)
 </p>
 
 # Giới thiệu
