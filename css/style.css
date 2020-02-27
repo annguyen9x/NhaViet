@@ -1,0 +1,381 @@
+*{
+margin:0 auto;
+padding:0;
+}
+#wrapper{
+	width:960px;
+	height:1000px;
+	background:white;
+
+	border-left:2px solid #313131;
+	border-right:2px solid #313131;
+}
+
+/*Thẻ dùng chung nhiều lần */
+ul{
+	margin:0px;
+    padding:0px;
+}
+ul li{
+	list-style:none;
+	float:left ;
+}
+.chu14_trang{
+	font-size:14px;
+	color:#ffffff;
+	line-height:14px;
+
+	text-transform:uppercase;
+	font-family:Arial;
+	font-weight:bold;
+}
+.chu13_den{
+	font-size:13px;
+	color:#484848;
+	line-height:13px;
+
+	font-family:Arial;
+	font-weight: bold;
+}
+.border{
+	border:2px solid #f2f2f2;
+}
+a{
+	font-weight: bold;
+	text-decoration:none;
+	color:#484848;
+}
+h3{
+    font-size:14px;
+}
+
+/*---------- Phần header ----------*/
+header{
+	height:115px;
+	width:960px;
+	background:white;
+}
+header #top{
+	background-image:url('../img/line_top.png');
+	height:20px;
+}
+header #top ul{
+	margin-left:780px;
+}
+header #top ul li a{
+	padding:0 10px;
+	font-size:13px;
+	line-height:20px;
+	color:#999999;
+}
+header ul li .gachgiua_left { /*đường gạch giữa Đăng ký| Đăng nhập */
+    border-color:#999999;
+    border-style:solid;
+    border-width:0 0 0 1px; /* Độ dày viền: trên - phải - dưới - trái; */
+}
+/*Phần logo...*/
+header #logo_sdt_search{
+	float:left;
+	height:95px;
+}
+header #logo_sdt_search #header_sdt{
+	width:960px;
+	height:30px;
+	margin-top:8px;
+	text-align:center;
+}
+header #logo_sdt_search #logo_search{
+	margin-left:50px;
+	margin-top:-30px;
+
+	width:860px; 	/*Cần có để canh sát 2 bên */
+}
+header #logo_sdt_search #logo_search #header_logo{
+	float:left;		/*Canh theo lề bên trái*/
+	margin-top:0;
+	margin-left:0px;
+}
+header #logo_sdt_search #logo_search #search_box{
+	float:right;		/*Canh theo lề bên phải*/
+	margin-right:0px;
+	margin-top:30px;
+}
+header #logo_sdt_search #logo_search #search_box form{
+	float:left;
+	width:220px;
+	height:40px;
+	margin:0;
+	background:#f47920;
+}
+header #logo_sdt_search #logo_search #search_box form input{
+	float:left;
+	margin-left:2px;
+	margin-top:2px;		/* bottom tự canh = 3px khi có width=? */
+
+	border-width:0;
+	width:70%;
+	height:36px;
+	text-indent:20px;
+}
+header #logo_sdt_search #logo_search #search_box form button{
+	float:left;
+	margin:0px;
+	width:29%;			/*Trừ lề canh bên left của input*/
+	height:100%;
+	line-height:100%;
+
+	border:none;				/* Tương đương border-width:0px; */
+	background-color:#f47920;/* màu nền */
+					/* Kiểu viết short hand- còn cụ thể: background-image; background-position; background-repeat */
+	background:url('../img/kinhlup.png') center no-repeat; /* Mặc định ảnh nền tại góc trên trái và lặp lại theo chiều ngang==> căn giữa và không lặp lại */
+}
+header #logo_sdt_search #logo_search #search_box form button:hover{
+	cursor:pointer;
+}
+
+/* MENU ngang */
+nav{
+	margin:0;
+	height:30px;
+	width:960px;
+	background-image:url('../img/sidebar_menu.png');
+
+	line-height:30px;
+}
+nav ul{
+	float:right;
+	margin-right:105px;
+}
+nav ul li{
+	margin-left:90px; 
+}
+nav ul li a:hover{
+	color:#f57921;;
+}
+
+/* Phần section-nội dung chính */
+section{
+	width:948px;
+	height:255px;
+	background:white;
+}
+section #right{
+	float:left;
+	margin:0;
+	width:733px;
+}
+section #right #menu_slide{
+	float:left;
+	margin:0;
+	height:170px;
+}
+section #right #menu_slide #menu_doc{
+	float:left;
+	margin-top:-40px;
+
+	background:#ffffff;
+	width:232px;
+	height:208px;
+
+	border:2px solid #f2f2f2;
+}
+section #right #menu_slide #menu_doc #top{
+	background:#f57921;
+	height:33px;
+	line-height:33px;
+}
+section #right #menu_slide #menu_doc #top img{
+	margin-left:12px;
+	margin-right:5px;
+	vertical-align:middle; 		/*Ảnh nằm giữa dòng chữ văn bản */
+}
+section #right #menu_slide #menu_doc dl{
+	margin-top:7px;
+	margin-left:20px;	
+	line-height:22px;
+}
+section #right #menu_slide #menu_doc dl dt span{
+	color:#484848;
+	font-size:15px;
+	font-weight:bold;
+}
+section #right #menu_slide #menu_doc dl dd{
+	margin-left:40px;
+}
+/* Phần slide */
+section #right #menu_slide #slide{
+	position:relative;		/* Lấy làm tọa độ gốc trong không gian 3 chiều */
+
+	float:left;
+	margin-top:2px;
+	margin-left:3px;
+	width:490px;
+	height:170px;
+}
+section #right #menu_slide #slide #anh_slide img{
+	float:left;
+	width:488px;
+	height:168px;
+}
+section #right #menu_slide #slide #nut{
+	display:none; /* Ẩn tất cả nút khi chưa rê chuột vào slide */
+}
+section #right #menu_slide #slide:hover #nut{	/* Khi rê chuột vào slide sẽ chỉ dụng hiển thị chuột lên class="nut" */
+	display:block;
+}
+section #right #menu_slide #slide #nut img:first-child{ /* thẻ img là con đầu của class="nut" */
+	top:44%;
+	left:15px;				/* trong không gian 3 chiều dùng left-top.. */
+	position:absolute;		/* Lấy tọa độ theo cha nó */
+}
+section #right #menu_slide #slide #nut img:last-child{  /* thẻ img là con cuối cùng của class="nut" */
+	top:44%;
+	right:15px;
+	position:absolute;	
+}
+section #right #menu_slide #slide #nut img:hover{
+	cursor:pointer;
+}
+/*Phần sản phẩm */
+section #right main{
+	float:left ;
+	margin-top:6px;
+	width:730px;
+	background:white;
+}
+section #right main .thanhngang{
+	float:left;
+	height:24px;
+	width:730px;
+	background:#f2f2f2;	
+}
+section #right main .thanhngang h2{
+	line-height:24px;
+	color:#48a8db; /* Đổi màu chữ xanh vì .chu14_trang chữ trắng */
+	text-indent:7px;
+}
+section #right main ul li{
+	float:left;
+	margin:5px 8px;  /* Trên-dưới; phải-trái */
+	border:1px solid #f2f2f2;
+
+	width:224px;
+	height:162px;
+
+	text-align:center;
+	line-height:16px;
+}
+section #right main ul li img{
+	margin-top:10px;
+}
+section #right main ul li a{
+	color:#f70c0c;
+}
+
+/* Phần aside: bên phải */
+section aside{
+	float:left;
+	margin-top:2px;
+	margin-left:1px;
+	width:212px;
+	background:white;
+}
+section aside .border_aside{
+	border:2px solid #f2f2f2 ;
+}
+section aside .top_aside{
+	width:211px;
+	height:32px;
+	background:#f57921;	
+
+	text-align:center;
+}
+ /* quy định lại độ cao dòng <h3>, do .chu14_trang có độ cao dòng 14 */
+section aside .chu14_trang{ 
+	line-height:32px;
+}
+section aside .chu13_den{
+	line-height:20px;
+}
+section aside #sp_noibat{
+	float:left;
+	height:250px;
+
+	text-align:center;
+}
+section aside #sp_noibat video{
+	margin-top:40px;
+	margin-bottom:10px;
+}
+section aside #sp_noibat a p{
+	color:#f70c0c;
+}
+section aside #doitac{
+	float:left;
+	margin-top:4px;
+	height:477px;
+
+	text-align:justify;
+}
+section aside #doitac ul li{
+	margin-top:40px;
+}
+section aside #doitac ul li p{
+	padding:3px 5px;
+}
+
+/*Phần footer */
+footer{
+	float:left;
+	margin:0;
+	width:960px;
+	height:109px;
+	background:#313131;
+}
+footer .chu13_den{
+	color:white;
+}
+footer img{
+	vertical-align:middle; /* Ảnh nằm giữa dòng văn bản */
+}
+footer ul li{
+	margin-top:5px;
+	margin-left:7px;
+}
+footer #logo_footer{
+	float:left;
+	width: 200px;
+
+    margin-left:30px;
+    margin-top:9px;
+}
+footer #logo_footer ul li p img{
+ 	margin-right:4px;
+ }
+ footer .giua_right{
+ 	float:left ;
+ 	width: 330px;
+    margin-top:10px;
+    margin-left:27px;
+ }
+footer .giua_right h3{
+  	text-indent:22px;
+  	margin-bottom:7px; /* cộng thêm vào margin top cua ul li */
+  }
+footer .giua_right ul li{
+	line-height:25px;
+}
+footer #ban_quyen{
+ 	float:left;
+ 	margin-top:1px;
+ 	width:960px;
+
+ 	text-align:center;
+ }
+footer #ban_quyen p{
+ 	color:#989898;
+ 	font-size:12px;
+ }
+ footer #ban_quyen p a{
+ 	color:#00EE00;
+ }

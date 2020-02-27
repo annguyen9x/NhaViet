@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nhaviet-Tư vấn thiết kế nội thất, ngoại thất</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+</head>
+
+<body>
+<div id="mau_nen">
+<div id="wrapper">
+	<header>
+		<div id="top">
+			<ul>
+				<li>
+					<a href="#">Đăng ký</a>
+				</li>
+				<li>
+					<a class="gachgiua_left" href="#">Đăng nhập</a>
+				</li>
+			</ul>
+		</div>
+		<!--Phần logo-sđt-search-->
+		<div id="logo_sdt_search">
+			<div id="header_sdt">
+				<img src="../img/sdt.png" title="phone" alt="phone"/>
+			</div>
+			<div id="logo_search">
+				<div id="header_logo">
+					<img src="../img/logo_slogan.png" title="nhaviet" alt="logo"/>
+				</div>
+				<div id="search_box">
+					<form method="get" action="#" name="form_dangnhap">
+							<input type="search" placeholder="Tìm kiếm"/>
+							<button type="submit"></nutton>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- 	Menu ngang	 -->
+	<nav>
+		<ul>
+			<li>
+				<a class="chu14_trang" href="">Trang chủ</a>
+			</li>
+			<li>
+				<a class="chu14_trang" href="#">Dịch vụ</a>
+			</li>
+			<li>
+				<a class="chu14_trang" href="">Đối tác</a>
+			</li>
+			<li>
+				<a class="chu14_trang" href="#">Liên hệ</a>
+			</li>
+		</ul>
+	</nav>
+<!--	Phần section: nội dung chính  -->
+	<section>
+		<div id="right">
+			<div id="menu_slide">
+				<div id="menu_doc"> 	<!-- Menu dọc-->
+					<div id="top">
+						<img src="../img/menu.png" title="menu" alt="icon"/>
+						<span class="chu14_trang">Danh mục sản phẩm</span>
+					</div>
+
+					<dl>
+						<dt>
+							<img src="../img/check.png" title="check" alt="check"/>
+							<span>Nội thất</span>
+						</dt>
+							<dd><a href="#">Sàn gỗ</a></dd>
+							<dd><a href="#">Giấy dán tường</a></dd>
+
+						<dt>
+							<img src="../img/check.png" title="check" alt="check"/>
+							<span>Ngoại thất</span>
+						</dt>
+							<dd><a href="#">Cây cảnh</a></dd>
+							<dd><a href="#">Thiết kế ngoại thất</a></dd>	
+
+						<dt>
+							<img src="../img/check.png" title="check" alt="check"/>
+								<span>Sản phẩm khác</span>
+						</dt>					
+					</dl>
+				</div>
+			<!--  Phần slide -->
+				<div id="slide">
+					<div id="anh_slide">
+						<img src="../img/slider_1.png" class="show" alt="anh1" title="slide1"/>
+		            	<img src="../img/slider_3.png" class="show" alt="anh2" title="slide2"/>
+		            	<img src="../img/slider_2.png" class="show" alt="anh3" title="slide3"/>
+		            	<img src="../img/slider_4.png" class="show" alt="anh4" title="slide4"/>
+					</div>
+					<div id="nut">
+						<!-- Gọi hàm Dieuhuong, next nó sẽ truyền +1 vào hàm; nếu back truyền -1 vào hàm Dieuhuong-->
+						<img Onclick="Dieu_huong(-1);" src="../img/back.png" title="back" alt="back"/>
+						<img Onclick="Dieu_huong(1);" src="../img/next.png" title="next" alt="next"/>
+					</div>
+				</div>
+			</div>
+		<!-- San Pham -->
+			<main>
+			<!--Nội thất-->
+				<div class="thanhngang"> <!-- Chèn 2 class-->
+					<h2 class="chu14_trang">Nội Thất</h2>
+				</div>
+				<ul>
+					<li  class="chu13_den">
+						<img src="../img/nt1.png" title="noithat1" alt="anhnt1"/>
+						<h3>Giấy dán tường A12</h3>
+						<a href="#">Giá: 2.000.000 VNĐ</a>
+					</li>
+					<li  class="chu13_den">
+						<img src="../img/nt2.png" title="noithat2" alt="anhnt2"/>
+						<h3>Giấy dán tường A23</h3>
+						<a href="#">Giá: 2.999.000 VNĐ</a>
+					</li>
+					<li  class="chu13_den">
+						<img src="../img/nt3.png" title="noithat3" alt="anhnt3"/>
+						<h3>Giấy dán tường A34</h3>
+						<a href="#">Giá: 3.000.000 VNĐ</a>
+					</li>
+				</ul>
+			<!--Ngoại thất-->
+				<div class="thanhngang">
+					<h2 class="chu14_trang">Ngoại Thất</h2>
+				</div>
+				<ul>
+					<li class="chu13_den">
+						<img src="../img/ngt1.png" title="ngth1" alt="ngth1"/>
+						<h3>Cây cảnh để bàn A123</h3>
+						<a href="#">Giá: 500.000 VND</a>
+					</li>
+					<li class="chu13_den">
+						<img src="../img/ngt2.png" title="ngth2" alt="ngth2"/>
+						<h3>Cây cảnh để bàn A234</h3>
+						<a href="#">Giá: 600.000 VND</a>
+					</li>
+					<li class="chu13_den">
+						<img src="../img/ngt3.png" title="ngth3" alt="ngth3"/>
+						<h3>Cây cảnh để bàn A345</h3>
+						<a href="#">Giá: 400.000 VND</a>
+					</li>
+					<li class="chu13_den">
+						<img src="../img/ngt4.png" title="ngth4" alt="ngth4"/>
+						<h3>Thiết kế coffee sân vườn</h3>
+						<a href="#">Giá: Liên hệ</a>
+					</li>
+					<li class="chu13_den">
+						<img src="../img/ngt5.png" title="ngth5" alt="ngth5"/>
+						<h3>Thiết kế homestay Đà Lạt</h3>
+						<a href="#">Giá: Liên hệ</a>
+					</li>
+					<li class="chu13_den">
+						<img src="../img/ngt6.png" title="ngth6" alt="ngth6"/>
+						<h3>Thiết kế chung cư Q9</h3>
+						<a href="#">Giá: Liên hệ</a>
+					</li>
+				</ul>
+			</main>
+		</div>
+<!--Phần bên left-->
+		<aside>
+			<div id="sp_noibat" class="border_aside">
+				<div class="top_aside">
+					<h3 class="chu14_trang">Sản phẩm nổi bật</h3>
+				</div>
+				<video  width="210px" height="auto" autoplay="autoplay" controls="controls">
+					Trình duyệt không hỗ trợ html5<!--nếu không hiển thị video -->
+					<source src="../img/airbonsai.mp4" type="video/mp4"/>
+				</video>
+				<a href="#" class="chu13_den">
+					<h3>Air Bonsai "ARITA Series"</h3>
+					<p>1.998.000 VNĐ</p>
+				</a>
+			</div>
+			<div id="doitac" class="border_aside">
+				<div class="top_aside">
+					<h3 class="chu14_trang">Đối tác của chúng tôi</h3>
+				</div>
+				<ul>
+					<li>
+						<img src="../img/dt1.png" title="dt1" alt="dt1"/>
+				<!--thẻ p quy định 1 đoạn để canh đều 2 bên-->
+						<p><a href="#" class="chu13_den">Chúng tôi tư vấn thiết kế nhà hàng Sirocco Thailan</a></p>
+					</li>
+					<li>
+						<img src="../img/dt2.png" title="dt2" alt="dt2"/>
+					<!--thẻ p quy định 1 đoạn để canh đều 2 bên-->
+						<p><a href="#" class="chu13_den">Là đối tác của Jumeirah Beach Hotel - Beach Hotels in Dubai</a></p>
+					</li>
+				</ul>
+			</div>
+		</aside>
+	</section>
+<!-- Phần footer -->
+	<footer>
+		<div id="logo_footer">
+			<a href="#"><img src="../img/footer_logo.jpg" title="nhaviet" alt="logo"/></a>
+			<ul>
+				<li>
+					<p>
+						<img src="../img/phone2.jpg" title="phone" alt="phone"/><span class="chu13_den">(84)-164.724.4142</span>
+					</p>	
+				</li>
+				<li>
+					<p>
+						<img src="../img/mail.jpg" title="phone" alt="phone"/><a class="chu13_den" href="#">annguyen09it@gmail.com</a>
+					</p>	
+				</li>
+			</ul>
+		</div>
+		<div class="giua_right">
+			<h3 class="chu14_trang">Khu vực miền nam</h3>
+			<ul>
+				<li class="chu13_den">
+					<img src="../img/map.png" title="map" alt="icon"/>
+				   	CS1: Phường Hiệp Tân, Quận Tân Phú, TP.HCM
+				</li>
+				<li class="chu13_den">
+					<img src="../img/map.png" title="map" alt="icon"/>
+				   	CS2: Phường 1, Quận Tân Bình, TP.HCM
+				</li>
+			</ul>
+		</div>
+		<div class="giua_right">
+			<h3 class="chu14_trang">Khu vực miền trung</h3>
+			<ul>
+				<li class="chu13_den">
+					<img src="../img/map.png" title="map" alt="icon"/>
+				   	CS1: Phường Sông Trí, Thị xã Kỳ Anh, Hà Tĩnh
+				</li>
+				<li class="chu13_den">
+					<img src="../img/map.png" title="map" alt="icon"/>
+				   	CS2: P.Thanh Bình, Q.Hải Châu, TP.Đà Nẵng
+				</li>
+		</div>
+		<div id="ban_quyen">
+			<p>&copy; Bản quyền thuộc về nhaviet - Cung cấp bởi <a href="#">annguyen</a></p>
+		</div>
+	</footer>
+	<!-- Đây là code js hiệu ứng slide-->
+	<script type="text/javascript" src="../javascript/slide.js" ></script>
+</div>
+</div>
+</body>
+</html>
